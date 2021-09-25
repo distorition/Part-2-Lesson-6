@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Part_2_Lesson_6</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="FluentMigrator" Version="3.3.1" />
+    <PackageReference Include="FluentMigrator.Runner" Version="3.3.1" />
+    <PackageReference Include="FluentMigrator.Runner.SqlServer" Version="3.3.1" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="5.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="5.0.1" />
+    <PackageReference Include="Quartz" Version="3.3.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+</Project>
